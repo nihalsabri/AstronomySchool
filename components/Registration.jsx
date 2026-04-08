@@ -88,7 +88,7 @@ export default function Registration() {
           className="grid md:grid-cols-3 gap-6 mb-12"
         >
           {[
-            { icon: <DollarSign className="w-5 h-5" />, title: 'Fees', body: 'Accommodation, meals, and all school materials are provided. Selected participants should confirm attendance upon notification.' },
+            { icon: <DollarSign className="w-5 h-5" />, title: 'Fees', body: 'The registration fees are 1000 EgP.(for Egyptian) , 200 € (for Non-Egyptian). Accommodation, meals, and all school materials are provided. Selected participants should confirm attendance upon notification.' },
             { icon: <Plane className="w-5 h-5" />, title: 'Travel', body: 'Participants are responsible for their own travel arrangements to the Kottamia Observatory site in Egypt.' },
             { icon: <Award className="w-5 h-5" />, title: 'Certificate', body: 'Participants who complete the programme will receive an official certificate from NRIAG.' },
           ].map((n, i) => (

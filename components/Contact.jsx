@@ -1,6 +1,6 @@
 'use client'
 import { useState } from 'react'
-import { MapPin, Calendar, Globe } from 'lucide-react'
+import { MapPin, Calendar, Globe, Phone } from 'lucide-react'
 
 const faqs = [
   {
@@ -142,6 +142,7 @@ export default function Contact() {
                 {[
                   { icon: <MapPin className="w-5 h-5" />, label: 'Location', value: 'Kottamia Astronomical Observatory, Egypt' },
                   { icon: <Calendar className="w-5 h-5" />, label: 'Dates', value: 'October 23 : 29, 2026' },
+                  // { icon: <Phone className="w-5 h-5" />, label: 'Call', value: '+20 10 13904079\n0100547023' },
                   { icon: <Globe className="w-5 h-5" />, label: 'Website', value: 'www.nriag.sci.eg' },
                 ].map((item, i) => (
                   <div key={i} className="flex gap-3">
@@ -172,8 +173,9 @@ export default function Contact() {
               <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,0.6)' }}>
                 For enquiries about the school, please reach out to the organising committee at NRIAG.
               </p>
+
               <a
-                href="mailto:astrophysicsschool@nriag.sci.eg"
+                href="mailto:ssasegypt@gmail.com"
                 className="inline-flex items-center gap-2 text-sm font-mono transition-opacity hover:opacity-80"
                 style={{ color: 'var(--gold-light)' }}
               >
@@ -182,6 +184,40 @@ export default function Contact() {
                 </svg>
                 Contact Organising Committee
               </a>
+       <div className="flex items-center gap-2">
+  <Phone className="w-4 h-4" style={{ color: 'var(--gold-light)' }} />
+  <p className="text-sm " style={{ color: 'var(--gold-light)' }}>
+    (+2) 01013904079
+  </p>
+</div>
+</div>
+            <div
+              className="p-6"
+              style={{ background: 'var(--navy-dark)', border: '1px solid var(--border)' }}
+            >
+              <p
+                className="font-mono text-xs tracking-widest uppercase mb-3"
+                style={{ color: 'var(--gold)' }}
+              >
+                Or Contact
+              </p>
+              <a
+                href="mailto:hadia_s@nriag.sci.eg"
+                className="inline-flex items-center gap-2 text-sm font-mono transition-opacity hover:opacity-80"
+                style={{ color: 'var(--gold-light)' }}
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+               Prof. Selim - LOC Chairwoman
+              </a>
+
+                     <div className="flex items-center gap-2">
+  <Phone className="w-4 h-4" style={{ color: 'var(--gold-light)' }} />
+  <p className="text-sm " style={{ color: 'var(--gold-light)' }}>
+    (+2) 01005471023
+  </p>
+</div>
             </div>
           </div>
         </div>
