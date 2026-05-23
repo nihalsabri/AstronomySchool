@@ -112,7 +112,7 @@ export default function Schedule() {
           <p className="font-mono text-sm mb-10" style={{ color: 'var(--text-muted)' }}>
             October 23 – 29, 2026 · Kottamia Observatory
           </p>
-          <a href="/Scientific_program_2026_v3.pdf" download className="text-center bg-[var(--navy-dark)] text-[var(--gold)] px-6 py-3 rounded-lg font-mono text-sm ">
+          <a href="/Scientific_program 2026_v3.pdf" download className="text-center bg-[var(--navy-dark)] text-[var(--gold)] px-6 py-3 rounded-lg font-mono text-sm ">
           Download Full Schedule (PDF)
         </a>
         </div>
