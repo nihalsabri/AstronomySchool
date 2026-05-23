@@ -107,15 +107,18 @@ export default function Schedule() {
             className="font-display text-4xl md:text-5xl mb-5"
             style={{ color: 'var(--navy-dark)' }}
           >
-            Weekly Schedule
+             Schedule
           </h2>
-          <p className="font-mono text-sm" style={{ color: 'var(--text-muted)' }}>
+          <p className="font-mono text-sm mb-10" style={{ color: 'var(--text-muted)' }}>
             October 23 – 29, 2026 · Kottamia Observatory
           </p>
+          <a href="/Scientific_program_2026_v3.pdf" download className="text-center bg-[var(--navy-dark)] text-[var(--gold)] px-6 py-3 rounded-lg font-mono text-sm ">
+          Download Full Schedule (PDF)
+        </a>
         </div>
 
         {/* Legend */}
-        <div className="flex flex-wrap gap-3 justify-center mb-10">
+        {/* <div className="flex flex-wrap gap-3 justify-center mb-10">
           {Object.entries(typeStyle).map(([key, val]) => (
             <span
               key={key}
@@ -125,10 +128,10 @@ export default function Schedule() {
               {val.label}
             </span>
           ))}
-        </div>
+        </div> */}
 
         {/* Days */}
-        <div className="space-y-6">
+        {/* <div className="space-y-6">
           {days.map((day, di) => (
             <details
               key={di}
@@ -199,7 +202,7 @@ export default function Schedule() {
               </div>
             </details>
           ))}
-        </div>
+        </div> */}
 
         {/* <p
           className="text-center font-mono text-xs mt-8"
@@ -207,6 +210,8 @@ export default function Schedule() {
         >
           Schedule is indicative and subject to minor adjustments. Final programme distributed upon registration.
         </p> */}
+
+
       </div>
     </section>
   )

@@ -2,72 +2,93 @@
 import 'flag-icons/css/flag-icons.min.css'
 
 const speakers = [
+   {
+    name: 'Prof. Vinay L. Kashyap',
+    affiliation: 'Harvard-Smithsonian Center for Astrophysics',
+    image: '/speakers/Kashyap, Vinay.jpeg',  
+    country: 'USA',
+    flag: 'us',
+  },
+  {
+    name: 'Prof. Raid Suleiman',
+    affiliation: 'Harvard-Smithsonian Center for Astrophysics',
+    image: '/speakers/Raid M Suleiman.jpeg',
+    country: 'USA',
+    flag: 'us',
+  },
+   {
+    name: 'Prof. Robert Szabó',
+    affiliation: 'Konkoly Observatory — HUN-REN CSFK, Director',
+    image: '/speakers/Ropert Szabo.jpeg',
+    country: 'Hungary',
+    flag: 'hu',
+  },
+  {
+    name: 'Prof. Brankica Kubátová',
+    affiliation: 'Head of Stellar Physics — Astronomical Institute AS CR, Ondřejov',
+    image: '/speakers/Brankica Kubátová.jpeg',
+    country: 'Czech Republic',
+    flag: 'cz',
+  },
+  {
+    name: 'Dr Shilpa Sarkar',
+    affiliation: 'Astronomical Institute of the Czech Academy of Sciences| Stellar Physics Department',
+    image: '/speakers/Dr Shilpa Sarkar.jpeg',
+    country: 'India',
+    flag: 'in',
+  },
+    {
+    name: 'Prof. David Valls-Gabaud',
+    affiliation: 'Observatoire de Paris',
+    image: '/speakers/David Valls-Gabaud.jpeg',
+    country: 'France',
+    flag: 'fr',
+  },
+  
+  {
+    name: 'Dr. Doaa M. El Sayed',
+    affiliation: 'NRIAG — Department of Astronomy',
+    image: '/speakers/Doaa M. El Sayed.jpeg',
+    country: 'Egypt',
+    flag: 'eg',
+  },
+   {
+    name: 'Prof. Ashraf Ahmed Shaker',
+    affiliation: 'NRIAG — Department of Astronomy',
+    image: '/speakers/Ashraf A. Shaker.jpeg',
+    country: 'Egypt',
+    flag: 'eg',
+  },
   {
     name: 'Prof. Mohamed Ibrahim Nouh',
     affiliation: 'NRIAG — Department of Astronomy',
+    image: '/speakers/Mohamed Ibrahim Nouh.jpeg',
     country: 'Egypt',
     flag: 'eg',
   },
-  {
-    name: 'Prof. Ashraf Ahmed Shaker',
-    affiliation: 'NRIAG — Department of Astronomy',
-    country: 'Egypt',
-    flag: 'eg',
-  },
+ 
   {
     name: 'Prof. Yasser Hassan Hendy',
     affiliation: 'NRIAG — Department of Astronomy',
+    image: '/speakers/Yasser Hassan Hendy.jpeg',
     country: 'Egypt',
     flag: 'eg',
   },
   {
     name: 'Prof. Ahmed Shokry Elshaer',
     affiliation: 'NRIAG — Department of Astronomy',
+    image: '/speakers/Ahmed Shokry Abouelfetouh.jpeg',
     country: 'Egypt',
     flag: 'eg',
   },
-  {
+
+    {
     name: 'Prof. Gamal Eldin Hamed',
     affiliation: 'NRIAG — Department of Astronomy',
+    image: '/speakers/Gamal Edin Mohamed Hamed.jpeg',
     country: 'Egypt',
     flag: 'eg',
-  },
-  {
-    name: 'Dr. Doaa M. El Sayed',
-    affiliation: 'NRIAG — Department of Astronomy',
-    country: 'Egypt',
-    flag: 'eg',
-  },
-  {
-    name: 'Prof. Vinay L. Kashyap',
-    affiliation: 'Harvard-Smithsonian Center for Astrophysics',
-    country: 'USA',
-    flag: 'us',
-  },
-  {
-    name: 'Prof. Robert Szabó',
-    affiliation: 'Konkoly Observatory — HUN-REN CSFK, Director',
-    country: 'Hungary',
-    flag: 'hu',
-  },
-  {
-    name: 'Prof. Raid Suleiman',
-    affiliation: 'Harvard-Smithsonian Center for Astrophysics',
-    country: 'USA',
-    flag: 'us',
-  },
-  {
-    name: 'Prof. Brankica Kubátová',
-    affiliation: 'Head of Stellar Physics — Astronomical Institute AS CR, Ondřejov',
-    country: 'Czech Republic',
-    flag: 'cz',
-  },
-  {
-    name: 'Prof. David Valls-Gabaud',
-    affiliation: 'Observatoire de Paris',
-    country: 'France',
-    flag: 'fr',
-  },
+  }
 ]
 
 export default function Speakers() {
@@ -119,6 +140,7 @@ export default function Speakers() {
                   <ellipse cx="40" cy="70" rx="26" ry="20" />
                 </svg>
                 {/* Replace this div with an <img> tag when you have photos */}
+<img src={sp.image} alt={sp.name} className="absolute inset-0 w-full h-full object-cover" />
               </div>
 
               {/* Flag icon using flag-icons library */}

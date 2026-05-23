@@ -3,7 +3,7 @@ import Hero from '../components/Hero'
 import About from '../components/About'
 import Topics from '../components/Topics'
 import Speakers from '../components/Speakers'
-// import Schedule from '../components/Schedule'
+import Schedule from '../components/Schedule'
 import Participants from '../components/Participants'
 import DataSoftware from '../components/DataSoftware'
 import Registration from '../components/Registration'
@@ -19,7 +19,7 @@ export default function Home() {
         <About />
         <Topics />
         <Speakers />
-        {/* <Schedule /> */}
+        <Schedule />
         <Participants />
         <DataSoftware />
         <Registration />

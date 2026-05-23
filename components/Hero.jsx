@@ -95,7 +95,7 @@ export default function Hero() {
       <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
         {/* Badge */}
         <div
-          className="inline-flex items-center gap-3 px-5 py-2 mb-10 text-xs font-mono tracking-widest uppercase"
+          className="inline-flex items-center gap-3 px-5 py-2 mb-5 mt-20  text-xs font-mono tracking-widest uppercase "
           style={{
             border: '1px solid rgba(201,162,39,0.5)',
             color: 'var(--gold-light)',
@@ -103,7 +103,7 @@ export default function Hero() {
           }}
         >
           <span
-            className="w-1.5 h-1.5 rounded-full animate-pulse"
+            className="w-1.5 h-1.5 rounded-full animate-pulse  "
             style={{ background: 'var(--gold)' }}
           />
           National Research Institute of Astronomy and Geophysics — NRIAG , EGYPT
@@ -172,7 +172,7 @@ export default function Hero() {
         </div>
 
         {/* CTAs */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-20">
           <a
             href="#registration"
             className="px-8 py-4 font-mono text-sm font-semibold tracking-widest uppercase transition-all duration-200 hover:brightness-110"
