@@ -155,7 +155,7 @@ export default function Participants() {
               <p className="font-mono text-xs tracking-widest uppercase mb-4" style={{ color: 'var(--gold)' }}>
                 Egypt
               </p>
-              <p className="font-display text-1xl font-bold text-white mb-1">Mario Hérmina </p>
+              <p className="font-display text-1xl font-bold text-white mb-1">Nour Hefnawy  </p>
               <p className="font-display text-1xl font-bold text-white mb-1">Nihal Sabri </p>
               <p className="font-display text-1xl font-bold text-white mb-1">Youssef Mohamed Abd El-Maboud  </p>
               <p className="font-display text-1xl font-bold text-white mb-1">Diaa Eldin Malek Sultan  </p>
@@ -187,7 +187,6 @@ export default function Participants() {
               <p className="font-display text-1xl font-bold text-white mb-1">Samah Hossny Mohammed Abdelullah El-Essawy   </p>
               <p className="font-display text-1xl font-bold text-white mb-1">Basmala Sallam  </p>
               <p className="font-display text-1xl font-bold text-white mb-1">Zainab Mohsen Mohamed Mahmood   </p>
-              <p className="font-display text-1xl font-bold text-white mb-1">Hussein Mohamed Farid     </p>
               <p className="font-display text-1xl font-bold text-white mb-1">Eslam Elhosseiny    </p>
               <p className="font-display text-1xl font-bold text-white mb-1">Kerolos Remon Mobarak   </p>
               <p className="font-mono text-xs tracking-widest uppercase mb-4" style={{ color: 'var(--gold)' }}>
