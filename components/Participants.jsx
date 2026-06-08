@@ -145,7 +145,7 @@ export default function Participants() {
         {/* Accepted Participants */}
 <div className="mt-16  text-center">
   <h3 className="font-display text-2xl mb-6" style={{ color: 'white' }}>
-    Accepted Participants
+    Participants
   </h3>
   <div className="grid md:grid-cols-2 gap-8">
             <div
