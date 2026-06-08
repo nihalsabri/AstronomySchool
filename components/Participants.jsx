@@ -32,6 +32,7 @@ export default function Participants() {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-start">
+
           {/* Eligibility */}
           <div>
             <h3
@@ -141,6 +142,76 @@ export default function Participants() {
             </div>
           </div>
         </div>
+        {/* Accepted Participants */}
+<div className="mt-16  text-center">
+  <h3 className="font-display text-2xl mb-6" style={{ color: 'white' }}>
+    Accepted Participants
+  </h3>
+  <div className="grid md:grid-cols-2 gap-8">
+            <div
+              className=" p-6 mb-6"
+              style={{ border: '1px solid rgba(255,255,255,0.1)', background: 'rgba(255,255,255,0.03)' }}
+            >
+              <p className="font-mono text-xs tracking-widest uppercase mb-4" style={{ color: 'var(--gold)' }}>
+                Egypt
+              </p>
+              <p className="font-display text-1xl font-bold text-white mb-1">Mario Hérmina </p>
+              <p className="font-display text-1xl font-bold text-white mb-1">Nihal Sabri </p>
+              <p className="font-display text-1xl font-bold text-white mb-1">Youssef Mohamed Abd El-Maboud  </p>
+              <p className="font-display text-1xl font-bold text-white mb-1">Diaa Eldin Malek Sultan  </p>
+              <p className="font-display text-1xl font-bold text-white mb-1">Baraa Hany Abdelhamid Mohamed  </p>
+              <p className="font-display text-1xl font-bold text-white mb-1">Hussien Ahmed Hussien Taha   </p>
+              <p className="font-display text-1xl font-bold text-white mb-1">Salma Waheed Mahmoud Ibrahim Mansour    </p>
+              <p className="font-display text-1xl font-bold text-white mb-1">Hassnaa hassan ibrahim elsayed mohamed kassem   </p>
+              <p className="font-display text-1xl font-bold text-white mb-1">Mennatallah Ashraf Mohamed Ghonem Alsebai  </p>
+              <p className="font-display text-1xl font-bold text-white mb-1">Ahmed Aly Saber Aly Omar  </p>
+              <p className="font-display text-1xl font-bold text-white mb-1">Rania Medkour abdelmajeed Abdallah  </p>
+              <p className="font-display text-1xl font-bold text-white mb-1">Ahmed Madany  </p>
+              <p className="font-display text-1xl font-bold text-white mb-1">Ziad Azab  </p>
+              <p className="font-display text-1xl font-bold text-white mb-1">Gehad Mostafa Hasan Eldibany </p>
+              <p className="font-display text-1xl font-bold text-white mb-1">Mayada Khairy   </p>
+  <p className="font-display text-1xl font-bold text-white mb-1">Hossam Eldin Rashad Ramadan Abdelsalam  </p>
+              <p className="font-display text-1xl font-bold text-white mb-1">Diaa-eldin Fouda  </p>
+
+
+            </div>
+              <div
+              className="p-6 mb-6"
+              style={{ border: '1px solid rgba(255,255,255,0.1)', background: 'rgba(255,255,255,0.03)' }}
+            >
+              <p className="font-mono text-xs tracking-widest uppercase mb-4" style={{ color: 'var(--gold)' }}>
+                Egypt
+              </p>
+
+              <p className="font-display text-1xl font-bold text-white mb-1">Youssef Mohamed Abd El-Maboud  </p>
+              <p className="font-display text-1xl font-bold text-white mb-1">Samah Hossny Mohammed Abdelullah El-Essawy   </p>
+              <p className="font-display text-1xl font-bold text-white mb-1">Basmala Sallam  </p>
+              <p className="font-display text-1xl font-bold text-white mb-1">Zainab Mohsen Mohamed Mahmood   </p>
+              <p className="font-display text-1xl font-bold text-white mb-1">Hussein Mohamed Farid     </p>
+              <p className="font-display text-1xl font-bold text-white mb-1">Eslam Elhosseiny    </p>
+              <p className="font-display text-1xl font-bold text-white mb-1">Kerolos Remon Mobarak   </p>
+              <p className="font-mono text-xs tracking-widest uppercase mb-4" style={{ color: 'var(--gold)' }}>
+                 Iraq
+              </p>
+              <p className="font-display text-1xl font-bold text-white mb-1">Mohammed Ahmed Mahmood   </p>
+              <p className="font-display text-1xl font-bold text-white mb-1">Muntadher Mohammed Hamad   </p>
+              <p className="font-mono text-xs tracking-widest uppercase mb-4" style={{ color: 'var(--gold)' }}>
+                 Palestine
+              </p>
+
+              <p className="font-display text-1xl font-bold text-white mb-1">Areej Tahhan Halabi   </p>
+              <p className="font-display text-1xl font-bold text-white mb-1">MoheyAldeen Shami  </p>
+                            <p className="font-mono text-xs tracking-widest uppercase mb-4" style={{ color: 'var(--gold)' }}>
+                  Mauritania
+              </p>
+
+              <p className="font-display text-1xl font-bold text-white mb-1">Ely cheikh Ould Mohamed Navee Eleyatt  </p>
+         
+            </div>
+   </div>         
+
+</div>
+
       </div>
     </section>
   )
